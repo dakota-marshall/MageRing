@@ -1,6 +1,7 @@
 ---
 title: Site List
 permalink: /sites
+layout: base
 ---
 {% assign websites = site.websites | sort: 'date' %}
 

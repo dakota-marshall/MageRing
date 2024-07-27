@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: /about
+layout: base
 ---
 
 {{site.title}} is built as a Jekyll static site, from the GitHub repo [{{site.repository}}]({{site.repository}}).
