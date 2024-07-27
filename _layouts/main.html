@@ -10,10 +10,10 @@
 <body>
     <div id="container">
         <div id="headerArea">
-            <div id="header" style="height: 300px; display: flex; justify-content: center; align-items: center;">
+            <div id="header" style="height: 150px; display: flex; justify-content: center; align-items: center;">
                 <div class="item" style="flex-grow: 1;">
                     <a style="display: block; text-align: center">
-                        <h1>{{ site.title }}</h1>
+                        <h1 style="font-size: 20px;">{{ site.title }}</h1>
                     </a>
                 </div>
             </div>
@@ -46,25 +46,12 @@
             </main>
         </div>
         <footer id="footer" style="margin-top: 10px;">
-            <div>
-                <p>Est. 2024-03-12</p>
+            <div>Est. 2024-03-12
             </div>
         </footer>
     </div>
     <!-- THIS IS THE CSS !-->
     <style>
-        /* user styles */
-        .artImageSmall {
-            width: 100%;
-            max-width: 250px;
-        }
-
-        .torch-seperator {
-            position: relative;
-            float: left;
-            top: -20px;
-            width: 25px;
-        }
 
         /* styles are what change the color and sizes of stuff on your site. */
 
@@ -122,7 +109,6 @@
             background-size: 90px;
             color: #fceaff;
             background-image: var(--body-bg-image);
-            cursor: url('/static/cursors/wand.cur'), auto;
         }
 
         * {
@@ -141,7 +127,7 @@
     the other elements, you will need to move that div outside
     of the container */
         #container {
-            max-width: 900px;
+            max-width: 700px;
             /* this is the width of your layout! */
             /* if you change the above value, scroll to the bottom
       and change the media query according to the comment! */
@@ -245,7 +231,7 @@
             order: 2;
             flex-grow: 0;
             flex-shrink: 0;
-            flex-basis: 465px;
+            flex-basis: 700px;
         }
 
         /* what's this "order" stuff about??

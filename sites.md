@@ -1,7 +1,7 @@
 ---
 title: Site List
 permalink: /sites
-layout: default
+layout: main
 ---
 {% assign websites = site.websites | sort: 'date' %}
 {% for website in websites %}
