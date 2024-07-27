@@ -1,11 +1,20 @@
 body {
-  background-color: lavender;
+  background-color: #00000000;
   margin: 0; /* required for correct iframe resizing */
   padding: 5px;
 }
 
 .badge {
   text-align: center;
+}
+
+.MageRing {
+  display: flex;
+  align-items: center;
+}
+
+.mainImage {
+  width: 50%;
 }
 
 .links {

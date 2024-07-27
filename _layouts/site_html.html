@@ -18,13 +18,16 @@
 {% else %}
   {% assign next = site.websites | sort: 'date' | first %}
 {% endif %}
-  <p class="badge"><span class="site-name">{{page.title}}</span> is a member of the <span class="webring-name">{{site.title}}</span> webring</p>
   <div class="links">
     <a class="link previous" href="{{prev.uri}}" title="{{prev.title}}: {{prev.desc}}" rel="noopener external" target="_parent">
-      Previous
+      ← Previous
     </a>
+    <div class="MageRing">
+      <a class="link site" href="{{'/' | absolute_url}}"><img class="mainImage" src="/assets/imgs/orb_pondering.gif"></a>
+      <h3>MageRing</h3>
+    </div>
     <a class="link next" href="{{next.uri}}" title="{{next.title}}: {{next.desc}}" rel="noopener external" target="_parent">
-      Next
+      Next →
     </a>
     <a class="link random" href="#">Random</a>
     <a class="link all" href="{{'/sites' | relative_url}}" rel="noopener external" target="_parent">Site List</a>
