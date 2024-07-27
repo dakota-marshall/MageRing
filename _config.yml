@@ -4,7 +4,7 @@
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
-#
+#_config.yml
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Too Many Webrings!
-email: bite-me@toomanybees.com
+title: MageRing
+email: me@dakotamarshall.net
 description: >- # this means to ignore newlines until "baseurl:"
-  A prototype for a GitHub Pages-based static web ring!
+  A webring for all the Wizards and Witches of the interwebs!
 baseurl: /ring # For GitHub Pages's default url, this is the name of your repo
-url: https://toomanybees.github.io
+url: https://magering.net
 
 # Build settings
 markdown: kramdown
@@ -54,5 +54,5 @@ defaults:
 
 # Webring contribution
 
-repository: https://github.com/TooManyBees/ring
-new_site_url: https://github.com/TooManyBees/ring/new/master/_websites
+repository: https://github.com/dakota-marshall/magering
+new_site_url: https://github.com/dakota-marshall/magering/new/master/_websites
