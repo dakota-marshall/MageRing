@@ -4,6 +4,10 @@ body {
   padding: 5px;
 }
 
+.header {
+  color: #ED64F5;
+}
+
 .badge {
   text-align: center;
 }
@@ -31,6 +35,7 @@ body {
   border-top-color: #ba94c7;
   background-color: #753988; */
   color: white;
+  align-self: flex-end;
 }
 
 .site-name {
