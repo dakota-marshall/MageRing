@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: main
 ---
 
 Welcome to the {{site.title}}: A webring of all witches, wizards, and any magic user on the interwebs!
