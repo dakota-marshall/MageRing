@@ -14,8 +14,7 @@ h3 {
 }
 
 .MageRing {
-  /* display: flex;
-  align-items: center; */
+  text-align: center;
 }
 
 .mainImage {
@@ -24,9 +23,7 @@ h3 {
 
 .links {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 500px;
+  width: 410px;
 }
 
 .link{
@@ -38,10 +35,6 @@ h3 {
   background-color: #753988; */
   color: white;
   align-self: flex-end;
-}
-
-.linkRandom {
-  text-align: center;
 }
 
 .site-name {
