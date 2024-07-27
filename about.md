@@ -16,7 +16,7 @@ This webring is for anyone with a Mage themed website or profile, be that Wizard
 
 - Either
   - Email me at [me@dakotamarshall.net](mailto://me@dakotamarshall.net) with the URL, Site Name, and Description
-  - Create a Merge Request on the [Github Repo]({{ site.new_site_url }}) using the below instructions
+  - Create a Pull Request on the [Github Repo]({{ site.new_site_url }}) using the below instructions
 - Add the iframe to your site / profile
 
 ## Add the iframe to your site
@@ -40,7 +40,7 @@ replacing `dakotamarshall` with the name of the file you added. The `parent.js` 
 </iframe>
 <script src="{{'/assets/parent.js' | absolute_url}}"></script>
 
-## Creating an MR
+## Creating a PR
 
 Visit the [create new file form]({{site.new_site_url}}) on this webring's repository.
 
