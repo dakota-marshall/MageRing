@@ -15,15 +15,16 @@ h3 {
 
 .MageRing {
   text-align: center;
+  width: 40%;
 }
 
 .mainImage {
-  width: 50%;
+  width: 60%;
 }
 
 .links {
   display: flex;
-  width: 410px;
+  width: 50%;
 }
 
 .link{
