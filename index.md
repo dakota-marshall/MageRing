@@ -2,10 +2,16 @@
 layout: default
 ---
 
-Welcome to {{site.title}} webring: presently a tech demo for a webring hosted on GitHub pages.
+Welcome to the {{site.title}}: A webring of all witches, wizards, and any magic user on the interwebs!
+
+We are a collection of any magic themed websites, social media profiles, etc.
+
+---
 
 Here are the [list of member sites]({{'/sites' | relative_url}}).
 
 Here's how to [submit a new site]({{'/about#to-join' | relative_url}}) to this webring.
 
-To create your own, fork [this repo]({{site.repository}}), customize `_config.yml`, clobber any existing files in `_websites` with your own list of sites, then enable GitHub pages on your fork!
+---
+
+This webring is a fork of the [TooManyBees](https://github.com/TooManyBees/ring) ring, using jekyll and Github Pages.
