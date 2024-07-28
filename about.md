@@ -10,14 +10,13 @@ layout: main
 
 This webring is for anyone with a Mage themed website or profile, be that Wizards, Witches, Warlocks, etc. as long as its magic themed, feel free to join :) 
 
-# To join
-
 ## Requirements
 
 - Either
   - Email me at [me@dakotamarshall.net](mailto://me@dakotamarshall.net) with the URL, Site Name, and Description
   - Create a Pull Request on the [Github Repo]({{ site.new_site_url }}) using the below instructions
 - Add the iframe to your site / profile
+- Not having the iframe on the main page of your site or profile means that you could be removed from the ring.
 
 ## Add the iframe to your site
 
