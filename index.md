@@ -2,6 +2,8 @@
 layout: main
 ---
 
+<img src="/assets/imgs/orb_pondering.gif" style="width: 600px;">
+
 Welcome to the {{site.title}}: A webring of all witches, wizards, and any magic user on the interwebs!
 
 We are a collection of any magic themed websites, social media profiles, etc.
