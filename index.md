@@ -1,8 +1,9 @@
 ---
 layout: main
 ---
-
-<img src="/assets/imgs/orb_pondering.gif" style="width: 600px;">
+<div style="text-align: center;">
+<img src="/assets/imgs/orb_pondering.gif" style="width: 200px;">
+</div>
 
 Welcome to the {{site.title}}: A webring of all witches, wizards, and any magic user on the interwebs!
 
