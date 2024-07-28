@@ -24,6 +24,11 @@ This webring is for anyone with a Mage themed website or profile, be that Wizard
 Each member site gets an embed page generated for them. After your pull request is approved and merged, add the embed to your site with the markup:
 
 ```
+<style type="text/css">
+  iframe {
+    border: none;
+  }
+</style>
 <iframe src="{{'/sites/dakotamarshall.html' | absolute_url}}">
 </iframe>
 <script src="{{'/assets/parent.js' | absolute_url }}"></script>
@@ -62,14 +67,15 @@ where `date` is the day you're making the new file request. Be careful not to mi
 If lavender isn't your thing, use your own css by appending the `stylesheet` query string param to the iframe's src attribute.
 
 ```
-<iframe src="{{'/sites/dakotamarshall.html' | absolute_url}}?stylesheet={{'/assets/alternate-embed.css' | absolute_url}}">
+<style type="text/css">
+  iframe {
+    border: none;
+  }
+</style>
+<iframe src="{{'/sites/dakotamarshall.html' | absolute_url}}?stylesheet=<link to your custom stylesheet>">
 </iframe>
 <script src="{{'/assets/parent.js' | absolute_url}}"></script>
 ```
-
-<iframe src="{{'/sites/dakotamarshall.html' | absolute_url}}?stylesheet={{'/assets/alternate-embed.css' | absolute_url}}">
-</iframe>
-<script src="{{'/assets/parent.js' | absolute_url}}"></script>
 
 # Manual Implementations
 
