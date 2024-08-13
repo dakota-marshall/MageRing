@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>{{site.title}}</title>
-  <meta name="site-uri" content="{{page.uri}}">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src *;">
-  <link id="default-style" rel="stylesheet" type="text/css" href="{{'assets/embed.css' | relative_url}}">
-  <script type="text/javascript" src="{{'assets/embed.js' | relative_url}}"></script>
+    <title>{{site.title}}</title>
+    <meta name="site-uri" content="{{page.uri}}">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src *;">
+    <link id="default-style" rel="stylesheet" type="text/css" href="{{'assets/embed.css' | relative_url}}">
+    <script type="text/javascript" src="{{'assets/embed.js' | relative_url}}"></script>
 </head>
+
 <body>
-{% if page.previous %}
-  {% assign prev = page.previous %}
-{% else %}
-  {% assign prev = site.websites | sort: 'date' | last %}
-{% endif %}
-{% if page.next %}
-  {% assign next = page.next %}
-{% else %}
-  {% assign next = site.websites | sort: 'date' | first %}
-{% endif %}
-  <div class="links">
-    <a class="link previous" href="{{prev.uri}}" title="{{prev.title}}: {{prev.desc}}" rel="noopener external" target="_parent">
-      ←Previous
-    </a>
-    <div class="MageRing">
-      <div><h3>MageRing</h3></div>
-      <div><a class="linkSite" href="{{'/' | absolute_url}}"><img class="mainImage" src="/assets/imgs/orb_pondering.gif"></a></div>
-      <div><a class="link random" href="#">Random</a></div>
+    {% if page.previous %}
+    {% assign prev = page.previous %}
+    {% else %}
+    {% assign prev = site.websites | sort: 'date' | last %}
+    {% endif %}
+    {% if page.next %}
+    {% assign next = page.next %}
+    {% else %}
+    {% assign next = site.websites | sort: 'date' | first %}
+    {% endif %}
+    <div class="links">
+        <a class="link previous" href="{{prev.uri}}" title="{{prev.title}}: {{prev.desc}}" rel="noopener external"
+            target="_parent">
+            ←Previous
+        </a>
+        <div class="MageRing">
+            <div>
+                <h3>MageRing</h3>
+            </div>
+            <div><a class="linkSite" target="_parent" href="{{'/' | absolute_url}}"><img class="mainImage"
+                        src="/assets/imgs/orb_pondering.gif"></a></div>
+            <div><a class="link random" href="#">Random</a></div>
+        </div>
+        <a class="link next" href="{{next.uri}}" title="{{next.title}}: {{next.desc}}" rel="noopener external"
+            target="_parent">
+            Next→
+        </a>
     </div>
-    <a class="link next" href="{{next.uri}}" title="{{next.title}}: {{next.desc}}" rel="noopener external" target="_parent">
-      Next→
-    </a>
-  </div>
 </body>
+
 </html>
